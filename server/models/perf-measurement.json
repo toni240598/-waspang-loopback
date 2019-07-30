@@ -1,0 +1,23 @@
+{
+  "name": "perf_measurement",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "perfCounterId": {
+      "type": "number"
+    },
+    "time": {
+      "type": "date"
+    },
+    "value": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

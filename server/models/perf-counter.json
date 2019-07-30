@@ -1,0 +1,20 @@
+{
+  "name": "perf_counter",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "managedObjId": {
+      "type": "number"
+    },
+    "perfObjId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
