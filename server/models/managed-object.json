@@ -17,7 +17,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "equipmentType": {
+      "type": "belongsTo",
+      "model": "equipment_type",
+      "foreignKey": "eqTypeId"
+    },
+    "parent": {
+      "type": "belongsTo",
+      "model": "managed_object",
+      "foreignKey": "parentId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
